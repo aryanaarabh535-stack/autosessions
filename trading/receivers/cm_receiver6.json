@@ -1,0 +1,154 @@
+{
+  "id": "cm_receiver6",
+  "name": "CM Receiver 6",
+  "bot_username": "CM_Receiver6_Bot",
+  "start_cmd": "/start",
+  "cancel_cmd": "/cancel",
+  "rate_cmd": "/cap",
+  "balance_cmd": "/account",
+  "withdraw_cmd": "/account",
+  "withdrawal_type": "usdt_bep20",
+  "default_wait_seconds": 600,
+  "priority": 6,
+  "enabled": true,
+  "sell_enabled": true,
+  "require_two_devices_before_logout": true,
+  "require_twofa_before_logout": false,
+  "ask_otp_regex": "(?:the\\s+code\\s+sent\\s+to\\s+the\\s+number|enter\\s+(?:the\\s+)?(?:login\\s+)?code|send\\s+(?:the\\s+)?(?:otp|code))",
+  "logout_wait_regex": "(?:account\\s+(?:\\+?\\d+\\s+)?received|will\\s+be\\s+(?:automatically\\s+)?confirmed\\s+(?:automatically\\s+)?after|please\\s+log\\s*out\\s+of\\s+your\\s+account\\s+on\\s+all\\s+other\\s+devices)",
+  "rejected_regex": "(?:rejected|quality\\s+check\\s+failed|not\\s+accepted|invalid\\s+code|wrong\\s+code|code\\s+(?:expired|invalid|incorrect)|session\\s+terminated|cancelled|canceled|banned|deleted|deactivated|frozen|(?:permanent|temporary)\\s+spam|spam\\s+(?:detected|blocked|restricted|account))",
+  "rates": {
+    "AF": {
+      "dial_code": "93",
+      "price_usd": 0.3
+    },
+    "AM": {
+      "dial_code": "374",
+      "price_usd": 0.6
+    },
+    "AR": {
+      "dial_code": "54",
+      "price_usd": 0.5
+    },
+    "BD": {
+      "dial_code": "880",
+      "price_usd": 0.12
+    },
+    "CL": {
+      "dial_code": "56",
+      "price_usd": 0.19
+    },
+    "CO": {
+      "dial_code": "57",
+      "price_usd": 0.18
+    },
+    "DZ": {
+      "dial_code": "213",
+      "price_usd": 0.5
+    },
+    "EC": {
+      "dial_code": "593",
+      "price_usd": 0.25
+    },
+    "ET": {
+      "dial_code": "251",
+      "price_usd": 0.23
+    },
+    "FI": {
+      "dial_code": "358",
+      "price_usd": 0.7
+    },
+    "GB": {
+      "dial_code": "44",
+      "price_usd": 0.35
+    },
+    "HK": {
+      "dial_code": "852",
+      "price_usd": 0.55
+    },
+    "IE": {
+      "dial_code": "353",
+      "price_usd": 0.5
+    },
+    "IL": {
+      "dial_code": "972",
+      "price_usd": 0.4
+    },
+    "IQ": {
+      "dial_code": "964",
+      "price_usd": 1.2
+    },
+    "JO": {
+      "dial_code": "962",
+      "price_usd": 0.5
+    },
+    "KH": {
+      "dial_code": "855",
+      "price_usd": 0.48
+    },
+    "MG": {
+      "dial_code": "261",
+      "price_usd": 0.25
+    },
+    "MQ": {
+      "dial_code": "596",
+      "price_usd": 0.4
+    },
+    "MX": {
+      "dial_code": "52",
+      "price_usd": 0.4
+    },
+    "MY": {
+      "dial_code": "60",
+      "price_usd": 0.65
+    },
+    "NG": {
+      "dial_code": "234",
+      "price_usd": 0.19
+    },
+    "NL": {
+      "dial_code": "31",
+      "price_usd": 0.5
+    },
+    "NP": {
+      "dial_code": "977",
+      "price_usd": 0.2
+    },
+    "PA": {
+      "dial_code": "507",
+      "price_usd": 0.2
+    },
+    "PK": {
+      "dial_code": "92",
+      "price_usd": 0.27
+    },
+    "PL": {
+      "dial_code": "48",
+      "price_usd": 0.4
+    },
+    "PT": {
+      "dial_code": "351",
+      "price_usd": 0.65
+    },
+    "SD": {
+      "dial_code": "249",
+      "price_usd": 0.3
+    },
+    "SN": {
+      "dial_code": "221",
+      "price_usd": 0.2
+    },
+    "TH": {
+      "dial_code": "66",
+      "price_usd": 0.42
+    },
+    "US": {
+      "dial_code": "1",
+      "price_usd": 0.2
+    },
+    "YE": {
+      "dial_code": "967",
+      "price_usd": 0.2
+    }
+  }
+}

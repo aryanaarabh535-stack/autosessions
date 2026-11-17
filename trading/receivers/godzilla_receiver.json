@@ -1,0 +1,125 @@
+{
+  "id": "godzilla_receiver",
+  "name": "Godzilla Receiver",
+  "bot_username": "GodzillaReceiverBot",
+  "start_cmd": "/start",
+  "cancel_cmd": "/cancel",
+  "rate_cmd": "/cap",
+  "balance_cmd": "/coin",
+  "withdraw_cmd": "/coin",
+  "withdrawal_type": "usdt_bep20",
+  "default_wait_seconds": 7200,
+  "priority": 8,
+  "enabled": true,
+  "sell_enabled": true,
+  "rates": {
+    "AM": {
+      "dial_code": "374",
+      "price_usd": 0.6
+    },
+    "BO": {
+      "dial_code": "591",
+      "price_usd": 0.6
+    },
+    "BR": {
+      "dial_code": "55",
+      "price_usd": 0.5
+    },
+    "BY": {
+      "dial_code": "375",
+      "price_usd": 1.5
+    },
+    "CD": {
+      "dial_code": "243",
+      "price_usd": 0.25
+    },
+    "DE": {
+      "dial_code": "49",
+      "price_usd": 0.8
+    },
+    "ES": {
+      "dial_code": "34",
+      "price_usd": 0.9
+    },
+    "GP": {
+      "dial_code": "590",
+      "price_usd": 0.7
+    },
+    "HT": {
+      "dial_code": "509",
+      "price_usd": 0.4
+    },
+    "HU": {
+      "dial_code": "36",
+      "price_usd": 0.8
+    },
+    "IE": {
+      "dial_code": "353",
+      "price_usd": 0.45
+    },
+    "IL": {
+      "dial_code": "972",
+      "price_usd": 0.4
+    },
+    "IN": {
+      "dial_code": "91",
+      "price_usd": 0.15
+    },
+    "IT": {
+      "dial_code": "39",
+      "price_usd": 0.7
+    },
+    "MC": {
+      "dial_code": "377",
+      "price_usd": 1.0
+    },
+    "MD": {
+      "dial_code": "373",
+      "price_usd": 1.1
+    },
+    "MO": {
+      "dial_code": "853",
+      "price_usd": 1.2
+    },
+    "PE": {
+      "dial_code": "51",
+      "price_usd": 0.5
+    },
+    "PK": {
+      "dial_code": "92",
+      "price_usd": 0.3
+    },
+    "PS": {
+      "dial_code": "970",
+      "price_usd": 0.6
+    },
+    "PY": {
+      "dial_code": "595",
+      "price_usd": 0.65
+    },
+    "SK": {
+      "dial_code": "421",
+      "price_usd": 1.2
+    },
+    "SV": {
+      "dial_code": "503",
+      "price_usd": 0.75
+    },
+    "TG": {
+      "dial_code": "228",
+      "price_usd": 0.2
+    },
+    "TH": {
+      "dial_code": "66",
+      "price_usd": 0.4
+    },
+    "TJ": {
+      "dial_code": "992",
+      "price_usd": 0.45
+    },
+    "US": {
+      "dial_code": "1",
+      "price_usd": 0.05
+    }
+  }
+}

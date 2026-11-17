@@ -1,0 +1,163 @@
+{
+  "id": "tb_unlimited2",
+  "name": "TB UNLIMITED 2",
+  "bot_username": "TBUNLIMITED2_bot",
+  "start_cmd": "/start",
+  "rate_cmd": "/capacity",
+  "balance_cmd": "/myinfo",
+  "withdraw_cmd": "/myinfo",
+  "withdrawal_type": "leader_card",
+  "priority": 99,
+  "enabled": true,
+  "sell_enabled": true,
+  "rates": {
+    "AF": {
+      "dial_code": "93",
+      "price_usd": 0.3
+    },
+    "AM": {
+      "dial_code": "374",
+      "price_usd": 0.6
+    },
+    "AT": {
+      "dial_code": "43",
+      "price_usd": 0.6
+    },
+    "BD": {
+      "dial_code": "880",
+      "price_usd": 0.18
+    },
+    "CN": {
+      "dial_code": "86",
+      "price_usd": 0.25
+    },
+    "CO": {
+      "dial_code": "57",
+      "price_usd": 0.19
+    },
+    "DE": {
+      "dial_code": "49",
+      "price_usd": 0.85
+    },
+    "DO": {
+      "dial_code": "1829",
+      "price_usd": 0.5
+    },
+    "DZ": {
+      "dial_code": "213",
+      "price_usd": 0.4
+    },
+    "EC": {
+      "dial_code": "593",
+      "price_usd": 0.35
+    },
+    "EG": {
+      "dial_code": "20",
+      "price_usd": 0.4
+    },
+    "ET": {
+      "dial_code": "251",
+      "price_usd": 0.23
+    },
+    "GE": {
+      "dial_code": "995",
+      "price_usd": 0.53
+    },
+    "HK": {
+      "dial_code": "852",
+      "price_usd": 0.55
+    },
+    "IE": {
+      "dial_code": "353",
+      "price_usd": 0.5
+    },
+    "IL": {
+      "dial_code": "972",
+      "price_usd": 0.42
+    },
+    "IQ": {
+      "dial_code": "964",
+      "price_usd": 1.2
+    },
+    "IR": {
+      "dial_code": "98",
+      "price_usd": 0.37
+    },
+    "KE": {
+      "dial_code": "254",
+      "price_usd": 0.15
+    },
+    "KH": {
+      "dial_code": "855",
+      "price_usd": 0.42
+    },
+    "MG": {
+      "dial_code": "261",
+      "price_usd": 0.23
+    },
+    "MQ": {
+      "dial_code": "596",
+      "price_usd": 0.5
+    },
+    "MX": {
+      "dial_code": "52",
+      "price_usd": 0.47
+    },
+    "MY": {
+      "dial_code": "60",
+      "price_usd": 0.65
+    },
+    "NG": {
+      "dial_code": "234",
+      "price_usd": 0.2
+    },
+    "PK": {
+      "dial_code": "92",
+      "price_usd": 0.28
+    },
+    "PT": {
+      "dial_code": "351",
+      "price_usd": 0.52
+    },
+    "SD": {
+      "dial_code": "249",
+      "price_usd": 0.35
+    },
+    "SL": {
+      "dial_code": "232",
+      "price_usd": 0.25
+    },
+    "SN": {
+      "dial_code": "221",
+      "price_usd": 0.2
+    },
+    "SY": {
+      "dial_code": "963",
+      "price_usd": 1.02
+    },
+    "TD": {
+      "dial_code": "235",
+      "price_usd": 0.35
+    },
+    "TN": {
+      "dial_code": "216",
+      "price_usd": 0.47
+    },
+    "TZ": {
+      "dial_code": "255",
+      "price_usd": 0.22
+    },
+    "US": {
+      "dial_code": "1",
+      "price_usd": 0.1
+    },
+    "VN": {
+      "dial_code": "84",
+      "price_usd": 0.52
+    },
+    "YE": {
+      "dial_code": "967",
+      "price_usd": 0.2
+    }
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "id": "newfast_receiver",
+  "name": "NewFast Receiver",
+  "bot_username": "newfast_receiver_bot",
+  "start_cmd": "/start",
+  "cancel_cmd": "/cancel",
+  "rate_cmd": "/cap",
+  "balance_cmd": "/me",
+  "withdraw_cmd": "/tasvie",
+  "balance_regex": "All\\s+Accounts\\s*:\\s*\\d+\\s+\\$?([0-9]+(?:\\.[0-9]+)?)",
+  "withdrawal_type": "usdt_bep20",
+  "default_wait_seconds": 600,
+  "priority": 8,
+  "enabled": true,
+  "sell_enabled": true,
+  "require_two_devices_before_logout": true,
+  "require_twofa_before_logout": false,
+  "ask_otp_regex": "(?:enter\\s+the\\s+code\\s+sent\\s+to\\s+the\\s+number|send\\s+(?:the\\s+)?(?:otp|code)|verification\\s+code)",
+  "logout_wait_regex": "with\\s+the\\s+number\\s+\\+?\\d+.*?(?:was|is)\\s+successfull?y?(?:\\s+received)?\\)?\\.?",
+  "rejected_regex": "(?:has\\s+more\\s+than\\s+\\d+\\s+conversations|cannot\\s+be\\s+registered|out\\s+of\\s+reach\\s+of\\s+the\\s+robot|deleting\\s+the\\s+robot\\s+session|is\\s+rejected|not\\s+accepted|invalid\\s+code|wrong\\s+code|code\\s+(?:expired|invalid|incorrect)|banned|deleted|deactivated|frozen|(?:permanent|temporary)\\s+spam|spam\\s+(?:detected|blocked|restricted|account))",
+  "rates": {
+    "AL": {
+      "dial_code": "355",
+      "price_usd": 0.55
+    },
+    "AO": {
+      "dial_code": "244",
+      "price_usd": 0.15
+    },
+    "AR": {
+      "dial_code": "54",
+      "price_usd": 0.5
+    },
+    "AS": {
+      "dial_code": "1",
+      "price_usd": 0.35
+    },
+    "AZ": {
+      "dial_code": "994",
+      "price_usd": 1.15
+    },
+    "BE": {
+      "dial_code": "32",
+      "price_usd": 1.25
+    },
+    "BF": {
+      "dial_code": "226",
+      "price_usd": 0.35
+    },
+    "BG": {
+      "dial_code": "359",
+      "price_usd": 1.0
+    },
+    "BH": {
+      "dial_code": "973",
+      "price_usd": 1.5
+    },
+    "BI": {
+      "dial_code": "257",
+      "price_usd": 0.35
+    },
+    "BJ": {
+      "dial_code": "229",
+      "price_usd": 0.25
+    },
+    "BN": {
+      "dial_code": "673",
+      "price_usd": 0.35
+    },
+    "BO": {
+      "dial_code": "591",
+      "price_usd": 0.6
+    },
+    "BR": {
+      "dial_code": "55",
+      "price_usd": 0.5
+    },
+    "BY": {
+      "dial_code": "375",
+      "price_usd": 1.6
+    },
+    "BZ": {
+      "dial_code": "501",
+      "price_usd": 0.35
+    },
+    "CH": {
+      "dial_code": "41",
+      "price_usd": 1.5
+    },
+    "CI": {
+      "dial_code": "225",
+      "price_usd": 0.65
+    },
+    "CK": {
+      "dial_code": "682",
+      "price_usd": 0.35
+    },
+    "CN": {
+      "dial_code": "86",
+      "price_usd": 0.25
+    },
+    "CO": {
+      "dial_code": "57",
+      "price_usd": 0.17
+    },
+    "CV": {
+      "dial_code": "238",
+      "price_usd": 0.3
+    },
+    "DJ": {
+      "dial_code": "253",
+      "price_usd": 0.4
+    },
+    "DO": {
+      "dial_code": "1",
+      "price_usd": 0.5
+    },
+    "DZ": {
+      "dial_code": "213",
+      "price_usd": 0.4
+    },
+    "EE": {
+      "dial_code": "372",
+      "price_usd": 0.8
+    },
+    "ER": {
+      "dial_code": "291",
+      "price_usd": 0.55
+    },
+    "ES": {
+      "dial_code": "34",
+      "price_usd": 0.85
+    },
+    "ET": {
+      "dial_code": "251",
+      "price_usd": 0.2
+    },
+    "FI": {
+      "dial_code": "358",
+      "price_usd": 0.8
+    },
+    "FJ": {
+      "dial_code": "679",
+      "price_usd": 0.6
+    },
+    "FK": {
+      "dial_code": "500",
+      "price_usd": 0.5
+    },
+    "GA": {
+      "dial_code": "241",
+      "price_usd": 0.35
+    },
+    "GB": {
+      "dial_code": "44",
+      "price_usd": 0.35
+    },
+    "GF": {
+      "dial_code": "594",
+      "price_usd": 0.45
+    },
+    "GL": {
+      "dial_code": "299",
+      "price_usd": 0.45
+    },
+    "GM": {
+      "dial_code": "220",
+      "price_usd": 0.35
+    },
+    "GP": {
+      "dial_code": "590",
+      "price_usd": 0.8
+    },
+    "GT": {
+      "dial_code": "502",
+      "price_usd": 0.4
+    },
+    "GY": {
+      "dial_code": "592",
+      "price_usd": 0.55
+    },
+    "HT": {
+      "dial_code": "509",
+      "price_usd": 0.35
+    },
+    "HU": {
+      "dial_code": "36",
+      "price_usd": 0.75
+    },
+    "IE": {
+      "dial_code": "353",
+      "price_usd": 0.5
+    },
+    "IN": {
+      "dial_code": "91",
+      "price_usd": 0.15
+    },
+    "IQ": {
+      "dial_code": "964",
+      "price_usd": 1.1
+    },
+    "IS": {
+      "dial_code": "354",
+      "price_usd": 0.9
+    },
+    "IT": {
+      "dial_code": "39",
+      "price_usd": 0.8
+    },
+    "JM": {
+      "dial_code": "1",
+      "price_usd": 0.4
+    },
+    "JO": {
+      "dial_code": "962",
+      "price_usd": 0.5
+    },
+    "KG": {
+      "dial_code": "996",
+      "price_usd": 0.8
+    },
+    "KI": {
+      "dial_code": "686",
+      "price_usd": 0.4
+    },
+    "KP": {
+      "dial_code": "850",
+      "price_usd": 0.2
+    },
+    "KW": {
+      "dial_code": "965",
+      "price_usd": 1.0
+    },
+    "LA": {
+      "dial_code": "856",
+      "price_usd": 0.8
+    },
+    "LS": {
+      "dial_code": "266",
+      "price_usd": 0.3
+    },
+    "LU": {
+      "dial_code": "352",
+      "price_usd": 1.0
+    },
+    "LV": {
+      "dial_code": "371",
+      "price_usd": 1.5
+    },
+    "MC": {
+      "dial_code": "377",
+      "price_usd": 1.0
+    },
+    "ML": {
+      "dial_code": "223",
+      "price_usd": 0.4
+    },
+    "MN": {
+      "dial_code": "976",
+      "price_usd": 0.75
+    },
+    "MO": {
+      "dial_code": "853",
+      "price_usd": 1.2
+    },
+    "MT": {
+      "dial_code": "356",
+      "price_usd": 1.15
+    },
+    "MV": {
+      "dial_code": "960",
+      "price_usd": 0.8
+    },
+    "MW": {
+      "dial_code": "265",
+      "price_usd": 0.35
+    },
+    "MX": {
+      "dial_code": "52",
+      "price_usd": 0.5
+    },
+    "MZ": {
+      "dial_code": "258",
+      "price_usd": 0.5
+    },
+    "NA": {
+      "dial_code": "264",
+      "price_usd": 0.4
+    },
+    "NC": {
+      "dial_code": "687",
+      "price_usd": 0.35
+    },
+    "NF": {
+      "dial_code": "672",
+      "price_usd": 0.35
+    },
+    "NI": {
+      "dial_code": "505",
+      "price_usd": 0.5
+    },
+    "NO": {
+      "dial_code": "47",
+      "price_usd": 1.2
+    },
+    "NR": {
+      "dial_code": "674",
+      "price_usd": 0.35
+    },
+    "NU": {
+      "dial_code": "683",
+      "price_usd": 0.35
+    },
+    "NZ": {
+      "dial_code": "64",
+      "price_usd": 1.15
+    },
+    "OM": {
+      "dial_code": "968",
+      "price_usd": 0.85
+    },
+    "PE": {
+      "dial_code": "51",
+      "price_usd": 0.5
+    },
+    "PG": {
+      "dial_code": "675",
+      "price_usd": 0.5
+    },
+    "PH": {
+      "dial_code": "63",
+      "price_usd": 0.3
+    },
+    "PK": {
+      "dial_code": "92",
+      "price_usd": 0.32
+    },
+    "PM": {
+      "dial_code": "508",
+      "price_usd": 1.0
+    },
+    "PR": {
+      "dial_code": "1",
+      "price_usd": 0.5
+    },
+    "PS": {
+      "dial_code": "970",
+      "price_usd": 0.95
+    },
+    "PT": {
+      "dial_code": "351",
+      "price_usd": 0.55
+    },
+    "PW": {
+      "dial_code": "680",
+      "price_usd": 0.35
+    },
+    "PY": {
+      "dial_code": "595",
+      "price_usd": 0.55
+    },
+    "RO": {
+      "dial_code": "40",
+      "price_usd": 0.75
+    },
+    "RU": {
+      "dial_code": "7",
+      "price_usd": 0.85
+    },
+    "RW": {
+      "dial_code": "250",
+      "price_usd": 0.3
+    },
+    "SA": {
+      "dial_code": "966",
+      "price_usd": 0.6
+    },
+    "SB": {
+      "dial_code": "677",
+      "price_usd": 0.45
+    },
+    "SE": {
+      "dial_code": "46",
+      "price_usd": 0.8
+    },
+    "SG": {
+      "dial_code": "65",
+      "price_usd": 1.45
+    },
+    "SI": {
+      "dial_code": "386",
+      "price_usd": 1.2
+    },
+    "SK": {
+      "dial_code": "421",
+      "price_usd": 1.2
+    },
+    "SL": {
+      "dial_code": "232",
+      "price_usd": 0.25
+    },
+    "SM": {
+      "dial_code": "378",
+      "price_usd": 0.9
+    },
+    "SO": {
+      "dial_code": "252",
+      "price_usd": 0.4
+    },
+    "SR": {
+      "dial_code": "597",
+      "price_usd": 1.0
+    },
+    "ST": {
+      "dial_code": "239",
+      "price_usd": 0.4
+    },
+    "SV": {
+      "dial_code": "503",
+      "price_usd": 0.7
+    },
+    "SY": {
+      "dial_code": "963",
+      "price_usd": 0.9
+    },
+    "SZ": {
+      "dial_code": "268",
+      "price_usd": 0.5
+    },
+    "TG": {
+      "dial_code": "228",
+      "price_usd": 0.2
+    },
+    "TH": {
+      "dial_code": "66",
+      "price_usd": 0.35
+    },
+    "TJ": {
+      "dial_code": "992",
+      "price_usd": 0.55
+    },
+    "TK": {
+      "dial_code": "690",
+      "price_usd": 0.2
+    },
+    "TM": {
+      "dial_code": "993",
+      "price_usd": 0.6
+    },
+    "TN": {
+      "dial_code": "216",
+      "price_usd": 0.5
+    },
+    "TO": {
+      "dial_code": "676",
+      "price_usd": 0.4
+    },
+    "TR": {
+      "dial_code": "90",
+      "price_usd": 0.5
+    },
+    "TT": {
+      "dial_code": "1",
+      "price_usd": 0.5
+    },
+    "TV": {
+      "dial_code": "688",
+      "price_usd": 0.35
+    },
+    "UY": {
+      "dial_code": "598",
+      "price_usd": 0.65
+    },
+    "UZ": {
+      "dial_code": "998",
+      "price_usd": 0.4
+    },
+    "VN": {
+      "dial_code": "84",
+      "price_usd": 0.55
+    },
+    "VU": {
+      "dial_code": "678",
+      "price_usd": 0.4
+    },
+    "WF": {
+      "dial_code": "681",
+      "price_usd": 0.35
+    },
+    "WS": {
+      "dial_code": "685",
+      "price_usd": 0.35
+    },
+    "XK": {
+      "dial_code": "383",
+      "price_usd": 1.0
+    },
+    "YE": {
+      "dial_code": "967",
+      "price_usd": 0.2
+    },
+    "ZM": {
+      "dial_code": "260",
+      "price_usd": 0.4
+    },
+    "ZW": {
+      "dial_code": "263",
+      "price_usd": 0.2
+    }
+  }
+}
